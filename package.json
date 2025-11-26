@@ -1,0 +1,14 @@
+{
+  "name": "node-red-app",
+  "version": "1.0.0",
+  "description": "Node-RED for signals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node-red"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-contrib-cron-plus": "^3.0.0",
+    "node-red-contrib-telegrambot": "^1.0.0"
+  }
+}
